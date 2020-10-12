@@ -4,7 +4,7 @@ version:
 Author: @Yeqiwei
 Date: 2020-09-03 20:29:35
 LastEditors: @Yeqiwei
-LastEditTime: 2020-10-11 19:36:43
+LastEditTime: 2020-10-12 17:12:08
 '''
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
@@ -49,8 +49,8 @@ init_epoch = 0                #从0开始
 seq_len = 32                  #代表每一个batch里的每一个数据包含32个，相当于一次取32个数据 
 batch_size = 8                #批处理大小为8
 num_classes = 5               #分类为5类
-training_datalist = "D:\\study\\dachuang\\example\\comp_AttentionConvLSTM-master\\data.txt"      #数据来源的txt文件
-testing_datalist = "D:\\study\\dachuang\\example\\comp_AttentionConvLSTM-master\\data.txt"
+training_datalist = ".\\data.txt"      #数据来源的txt文件
+testing_datalist = ".\\data.txt"
 # './dataset_splits/IsoGD/valid_%s_list.txt'%str_modality
 weight_decay = 0.00005        #防止过拟合（模型过复杂）的抑制参数，损失函数中加入了一项的系数，控制正则化项在损失函数中所占权重的
 model_prefix = './models/'
