@@ -1,4 +1,8 @@
 # AttentionConvLSTM
+运行：
+打开文件training_res3d_aclstm_mobilenet.py，运行该文件。尝试看是否能运行。。我设置的nb_epoch=1只训练了一次可以在该文件里面修改。
+
+以下是原项目介绍
 ## Prerequisites
 1) Python 2.7
 2) Tensorflow-1.2 <br/>
