@@ -1,6 +1,11 @@
 # AttentionConvLSTM
 运行：
-打开文件training_res3d_aclstm_mobilenet.py，运行该文件。尝试看是否能运行。。我设置的nb_epoch=1只训练了一次可以在该文件里面修改。
+
+打开文件training_res3d_aclstm_mobilenet.py，运行该文件。
+如果报错，可能是版本不一致，下面的项目介绍中有提到。需要TensorFlow-1.2
+然后需要将补丁（patchs文件夹）里面的文件复制到相应的目录下面（里面有readme）。
+应该就不会报错了
+我设置的nb_epoch=1只训练了一次可以在training_res3d_aclstm_mobilenet.py里面修改。
 
 以下是原项目介绍
 ## Prerequisites
