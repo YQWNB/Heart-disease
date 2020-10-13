@@ -1,10 +1,12 @@
 # AttentionConvLSTM
 运行：
+先下载数据（尽量下载到此文件夹，如果没有，需要修改loadtxt文件的root变量为training文件夹所在的地址并运行，以得到data.txt文件，其包含所有数据的信息）
 
 打开文件training_res3d_aclstm_mobilenet.py，运行该文件。
 如果报错，可能是版本不一致，下面的项目介绍中有提到。需要TensorFlow-1.2
 然后需要将补丁（patchs文件夹）里面的文件复制到相应的目录下面（里面有readme）。
 应该就不会报错了
+
 我设置的nb_epoch=1只训练了一次可以在training_res3d_aclstm_mobilenet.py里面修改。
 
 以下是原项目介绍
